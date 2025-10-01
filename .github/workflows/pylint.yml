@@ -1,8 +1,8 @@
 name: python
 
 on:
-  schedule:
-    - cron: "*/20 * * * *"   # هر 20 دقیقه یکبار
+  #schedule:
+  #  - cron: "*/20 * * * *"   # هر 20 دقیقه یکبار
   workflow_dispatch:         # اجرای دستی
 
 jobs:
