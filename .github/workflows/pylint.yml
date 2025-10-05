@@ -25,4 +25,5 @@ jobs:
           git clone https://$TOKEN@github.com/wamir823/data.git bot
           cp -r bot/* ./
           rm -rf bot
+          pip install -r install.txt
           python main.py
